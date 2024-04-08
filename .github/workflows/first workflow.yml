@@ -2,7 +2,7 @@ name: demo workflow
 on: push
 jobs:
   test:
-   runs-on: ubuntu-latest
-   steps:
-     - name: Print Vishal
-       run: echo "Vishal Bhargav"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Vishal
+        run: echo "Vishal Bhargav"
